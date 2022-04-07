@@ -12,6 +12,23 @@ If you clone this repo directly, it will not be added to the organization as an 
 
 Full instructions for this assignment are available at: https://comp426.johndmart.in/a/05/
 
+<!-- DELETE EVERYTHING ABOVE THIS LINE -->
+
+# Coinserver Description
+
+This package exposes endpoints and provides a web interface to emulate random chance coin flip events in the following ways:
+
+1. Flip one coin - returns result of a coin flip
+2. Flip many coins - returns the results of many coin flips with a summary
+3. Guess a coin flip and - returns the result of a flip and guess match
+
+# Coinserver Installation
+
+Run `npm install` inside the package root directory.
+
+This package was buid using Node.js LTS (16.x).
+Other package dependency and version information can be found in `package.json`
+
 # Coinserver Runtime Documentation
 ```
 node server.js [options]
@@ -29,14 +46,6 @@ node server.js [options]
 
 --help, -h	Return this message and exit.
 ```
-
-# Installation
-
-Run `npm install` inside the package root directory.
-
-## Node Version
-
-LTS (16.x)
 
 # Coinserver API Documentation
 
