@@ -163,19 +163,26 @@ Keep-Alive: timeout=5
 #### Request cURL
 
 ```
-
+curl -X POST -H 'Content-Type: application/json' -d '{"guess":"heads"}' http://localhost:5000/app/flip/call/
 ```
 
 #### Response body
 
 ```
-
+{"call":"heads","flip":"heads","result":"win"}
 ```
 
 #### Response headers
 
 ```
-
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 46
+ETag: W/"2e-U/q8iZ4JKqczXPIvtwiVRpEFlRc"
+Date: Thu, 07 Apr 2022 16:30:07 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
 ```
 
 ### /app/flip/coins/ (POST)
