@@ -1,6 +1,6 @@
-# a05 Web Interface
+# a05 Human Interface
 
-In this assignment, you will build an HTML human interface for your API.
+In this assignment, you will build an HTML human interface for your API. You will also document your API endpoints and consider package structure.
 
 ## DO NOT CLONE THIS REPOSITORY DIRECTLY
 
@@ -29,6 +29,14 @@ node server.js [options]
 
 --help, -h	Return this message and exit.
 ```
+
+# Installation
+
+Run `npm install` inside the package root directory.
+
+## Node Version
+
+LTS (16.x)
 
 # Coinserver API Documentation
 
