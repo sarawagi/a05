@@ -36,15 +36,21 @@ node server.js [options]
 
 ### /app/ (GET)
 
-```Request cURL
+#### Request cURL
+
+```
 curl http://localhost:5000/app/
 ```
 
-```Response body
+#### Response body
+
+```
 {"message":"Your API works! (200)"}
 ```
 
-```Response headers
+#### Response headers
+
+```
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
@@ -57,85 +63,121 @@ Keep-Alive: timeout=5
 
 ### /app/flip/ (GET)
 
-```Request cURL
+#### Request cURL
 
 ```
 
-```Response body
+```
+
+#### Response body
 
 ```
 
-```Response headers
+```
+
+#### Response headers
+
+```
 
 ```
 
 ### /app/flips/:number/ (GET)
 
-```Request cURL
+#### Request cURL
 
 ```
 
-```Response body
+```
+
+#### Response body
 
 ```
 
-```Response headers
+```
+
+#### Response headers
+
+```
 
 ```
 
 ### /app/flip/coin/ (GET)
 
-```Request cURL
+#### Request cURL
 
 ```
 
-```Response body
+```
+
+#### Response body
 
 ```
 
-```Response headers
+```
+
+#### Response headers
+
+```
 
 ```
 
 ### /app/flip/call/:guess/ (GET)
 
-```Request cURL
+#### Request cURL
 
 ```
 
-```Response body
+```
+
+#### Response body
 
 ```
 
-```Response headers
+```
+
+#### Response headers
+
+```
 
 ```
 
 ### /app/flip/call/ (POST)
 
-```Request cURL
+#### Request cURL
 
 ```
 
-```Response body
+```
+
+#### Response body
 
 ```
 
-```Response headers
+```
+
+#### Response headers
+
+```
 
 ```
 
 ### /app/flip/coins/ (POST)
 
-```Request cURL
+#### Request cURL
+
+```
 curl -X POST -H 'Content-Type: application/json' -d '{"number":"30"}' http://localhost:5000/app/flip/coins/`
 ```
 
-```Response body
+#### Response body
+
+```
 {"raw":["heads","heads","heads","tails","heads","heads","tails","tails","tails","heads","heads","heads","heads","heads","heads","tails","tails","heads","heads","heads","heads","heads","heads","heads","tails","heads","tails","heads","tails","heads"],"summary":{"heads":21,"tails":9}}
 ```
 
-```Response headers
+#### Response headers
+
+```
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
@@ -148,29 +190,41 @@ Keep-Alive: timeout=5
 
 ### /app/log/access/ (GET)
 
-```Request cURL
+#### Request cURL
 
 ```
 
-```Response body
+```
+
+#### Response body
 
 ```
 
-```Response headers
+```
+
+#### Response headers
+
+```
 
 ```
 
 ### /app/log/access/ (GET)
 
-```Request cURL
+#### Request cURL
 
 ```
 
-```Response body
+```
+
+#### Response body
 
 ```
 
-```Response headers
+```
+
+#### Response headers
+
+```
 
 ```
 
@@ -178,15 +232,21 @@ Keep-Alive: timeout=5
 
 _Not yet implemented_
 
-```Request cURL
+#### Request cURL
 
 ```
 
-```Response body
+```
+
+#### Response body
 
 ```
 
-```Response headers
+```
+
+#### Response headers
+
+```
 
 ```
 
@@ -194,15 +254,21 @@ _Not yet implemented_
 
 _Not yet implemented_
 
-```Request cURL
+#### Request cURL
 
 ```
 
-```Response body
+```
+
+#### Response body
 
 ```
 
-```Response headers
+```
+
+#### Response headers
+
+```
 
 ```
 
@@ -210,15 +276,21 @@ _Not yet implemented_
 
 _Not yet implemented_
 
-```Request cURL
+#### Request cURL
 
 ```
 
-```Response body
+```
+
+#### Response body
 
 ```
 
-```Response headers
+```
+
+#### Response headers
+
+```
 
 ```
 
@@ -226,15 +298,21 @@ _Not yet implemented_
 
 _Not yet implemented_
 
-```Request cURL
+#### Request cURL
 
 ```
 
-```Response body
+```
+
+#### Response body
 
 ```
 
-```Response headers
+```
+
+#### Response headers
+
+```
 
 ```
 
@@ -242,14 +320,20 @@ _Not yet implemented_
 
 _Not yet implemented_
 
-```Request cURL
+#### Request cURL
 
 ```
 
-```Response body
+```
+
+#### Response body
 
 ```
 
-```Response headers
+```
+
+#### Response headers
+
+```
 
 ```
