@@ -12,6 +12,24 @@ If you clone this repo directly, it will not be added to the organization as an 
 
 Full instructions for this assignment are available at: https://comp426.johndmart.in/a/05/
 
+# Coinserver Runtime Documentation
+```
+node server.js [options]
+
+--port, -p	Set the port number for the server to listen on. Must be an integer
+            between 1 and 65535.
+
+--debug, -d If set to true, creates endlpoints /app/log/access/ which returns
+            a JSON access log from the database and /app/error which throws 
+            an error with the message "Error test successful." Defaults to 
+            false.
+
+--log		If set to false, no log files are written. Defaults to true.
+            Logs are always written to database.
+
+--help, -h	Return this message and exit.
+```
+
 # Coinserver API Documentation
 
 ## Endpoints
@@ -19,6 +37,8 @@ Full instructions for this assignment are available at: https://comp426.johndmar
 ### /app/
 
 #### Response body
+
+
 
 #### Headers
 
